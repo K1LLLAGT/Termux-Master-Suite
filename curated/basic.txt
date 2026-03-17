@@ -1,0 +1,7 @@
+install_basic_tools
+install_tree
+install_htop
+install_ncdu
+install_neofetch
+install_termux_api
+install_git_setup

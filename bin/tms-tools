@@ -1,0 +1,55 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -e
+
+ROOT="$HOME/Termux-Master-Suite"
+TOOLS_DIR="$ROOT/tools"
+
+list_tools() {
+    echo "Available tools:"
+    for f in "$TOOLS_DIR"/*.sh; do
+        [ -e "$f" ] || continue
+        name="$(basename "$f" .sh)"
+        echo "  $name"
+    done
+}
+
+show_help() {
+    cat <<USAGE
+tms tools — run or list tools
+
+Usage:
+  tms tools list
+  tms tools <tool> [args...]
+
+Examples:
+  tms tools list
+  tms tools health_check
+USAGE
+}
+
+sub="$1"
+[ -z "$sub" ] && { show_help; exit 0; }
+
+case "$sub" in
+    list)
+        list_tools
+        ;;
+    help)
+        show_help
+        ;;
+    *)
+        tool="$sub"
+        shift || true
+        script="$TOOLS_DIR/${tool}.sh"
+        if [ -x "$script" ]; then
+            exec "$script" "$@"
+        elif [ -f "$script" ]; then
+            chmod +x "$script"
+            exec "$script" "$@"
+        else
+            echo "Unknown tool: $tool"
+            echo "Run: tms tools list"
+            exit 1
+        fi
+        ;;
+esac

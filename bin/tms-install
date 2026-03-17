@@ -1,0 +1,74 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -e
+
+ROOT="$HOME/Termux-Master-Suite"
+INSTALLERS_DIR="$ROOT/installers"
+MODULES_DIR="$ROOT/mega-installer/modules"
+
+list_installers() {
+    echo "Installers (installers/):"
+    for f in "$INSTALLERS_DIR"/*.sh; do
+        [ -e "$f" ] || continue
+        echo "  $(basename "$f" .sh)"
+    done
+    echo
+    echo "Modules (mega-installer/modules/):"
+    for f in "$MODULES_DIR"/*.sh; do
+        [ -e "$f" ] || continue
+        echo "  $(basename "$f" .sh)"
+    done
+}
+
+show_help() {
+    cat <<USAGE
+tms install — run or list installers/modules
+
+Usage:
+  tms install list
+  tms install <name> [args...]
+
+Search order:
+  1) installers/<name>.sh
+  2) mega-installer/modules/<name>.sh
+
+Examples:
+  tms install list
+  tms install install_basic_tools
+  tms install install_kali_top10
+USAGE
+}
+
+sub="$1"
+[ -z "$sub" ] && { show_help; exit 0; }
+
+case "$sub" in
+    list)
+        list_installers
+        ;;
+    help)
+        show_help
+        ;;
+    *)
+        name="$sub"
+        shift || true
+
+        cand1="$INSTALLERS_DIR/${name}.sh"
+        cand2="$MODULES_DIR/${name}.sh"
+
+        if [ -x "$cand1" ]; then
+            exec "$cand1" "$@"
+        elif [ -f "$cand1" ]; then
+            chmod +x "$cand1"
+            exec "$cand1" "$@"
+        elif [ -x "$cand2" ]; then
+            exec "$cand2" "$@"
+        elif [ -f "$cand2" ]; then
+            chmod +x "$cand2"
+            exec "$cand2" "$@"
+        else
+            echo "Installer/module not found: $name"
+            echo "Run: tms install list"
+            exit 1
+        fi
+        ;;
+esac

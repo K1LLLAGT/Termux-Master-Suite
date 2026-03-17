@@ -1,0 +1,9 @@
+install_apktool
+install_smali
+install_jadx
+install_phoneinfoga
+install_hiddeneye
+install_nexphisher
+install_toolx
+install_fastboot
+install_adb

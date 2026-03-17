@@ -1,0 +1,10 @@
+install_git_setup
+install_nodejs
+install_python_env
+install_go
+install_rust
+install_build_tools
+install_starship
+install_fzf
+install_ripgrep
+install_btop
