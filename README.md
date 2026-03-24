@@ -1,136 +1,294 @@
-# Termux-Master-Suite
+# Termux Master Suite
 
-Termux-Master-Suite is a modular, extensible, production-grade collection of installation modules designed to transform Termux into a complete mobile development and analysis environment. Each module installs a single tool, subsystem, or environment using clean, isolated, and maintainable shell scripts.
+```
+╔════════════════════════════════════════════════════════════════╗
+║   ████████╗███╗   ███╗███████╗                                ║
+║   ╚══██╔══╝████╗ ████║██╔════╝                                ║
+║      ██║   ██╔████╔██║███████╗                                ║
+║      ██║   ██║╚██╔╝██║╚════██║                                ║
+║      ██║   ██║ ╚═╝ ██║███████║                                ║
+║      ╚═╝   ╚═╝     ╚═╝╚══════╝                                ║
+╚════════════════════════════════════════════════════════════════╝
+```
 
-This project is built for developers, researchers, power users, and anyone who wants a structured, predictable, and professional Termux setup.
+**Where arcane engineering meets practical ops**
 
----
-
-## Features
-
-- Over 100 modular installation scripts
-- Clean, isolated module design
-- Full Kali Linux ARM64 environment (via proot-distro)
-- Developer tools and build systems
-- System utilities and diagnostics
-- Networking and debugging tools
-- Reverse engineering and binary analysis tools
-- Android analysis and APK tooling
-- Virtualization and emulation layers
-- OSINT and reconnaissance tools
-- Web testing and enumeration tools
-- Wireless and RF utilities
-- Meta-modules for automation and bulk installation
-- Documentation and manifest generators
-- Repository automation scripts
-- Professional, versioned, GitHub-ready structure
+A comprehensive, modular security research and development platform for Termux with **100+ specialized tools** organized into arcane paths.
 
 ---
 
-## Repository Structure
+## ⚡ Quick Start
 
-Termux-Master-Suite/
-|
-|-- install.sh
-|-- VERSION
-|-- CHANGELOG.md
-|-- CONTRIBUTING.md
-|-- LICENSE
-|-- README.md
-|
-|-- modules/
-|     |-- install_xxx.sh
-|     |-- mega_launcher.sh
-|     |-- install_all.sh
-|     |-- update_all.sh
-|     |-- generate_docs.sh
-|     |-- generate_module_index.sh
-|     |-- generate_tree.sh
-|     |-- validate_modules.sh
-|     |-- additional module scripts...
-|
-|-- docs/
-|     |-- MODULE_INDEX.md
-|
-|-- dist/
-      |-- release-ready module bundles
-
----
-
-## Quick Start
-
-Clone the repository and launch the interactive installer:
-
-git clone https://github.com/<yourname>/Termux-Master-Suite
+```bash
+git clone https://github.com/k1lllagt/Termux-Master-Suite.git
 cd Termux-Master-Suite
-bash install.sh
-
-This opens the module launcher, allowing you to install tools individually or in bulk.
-
----
-
-## Modules
-
-All modules are located in the modules/ directory.
-
-Each module:
-
-- Installs exactly one tool or subsystem
-- Is self-contained
-- Is idempotent
-- Follows a consistent naming pattern: install_<name>.sh
-
-To view a full list of modules, see:
-
-docs/MODULE_INDEX.md
-
-This file is auto-generated using:
-
-bash modules/generate_module_index.sh
+bash mega-installer/install.sh
+tms
+```
 
 ---
 
-## Automation Tools
+## 🔮 The Paths
 
-The suite includes several automation utilities:
+TMS organizes tools into five arcane paths:
 
-- install_all.sh — installs every module
-- update_all.sh — updates Termux and Kali environments
-- generate_docs.sh — regenerates documentation
-- generate_tree.sh — updates repository tree snapshot
-- generate_module_index.sh — rebuilds module index
-- validate_modules.sh — checks module formatting and permissions
-- build_release.sh — prepares a GitHub release bundle
+### 🔨 The Forge - Developer Tools & Build Systems
+- **Git workflows** - Advanced git setup and utilities
+- **Build systems** - Make, CMake, compilers
+- **Languages** - Go, Python, Node.js toolchains
+- **Development utilities** - fzf, modern CLI tools
 
-These tools help maintain consistency and streamline development.
+### ⚗️ The Crucible - System Utilities & Foundations  
+- **System monitoring** - btop, htop, system diagnostics
+- **DNS utilities** - dnsutils, network tools
+- **Environment** - Shell enhancements, dotfiles
+- **Core utilities** - Essential system tools
+
+### 🧵 The Loom - Languages, Editors & RE Tools
+- **Reverse Engineering** - Radare2, Ghidra, Binary Ninja workflows
+- **Hex editors** - hexcurse and binary analysis
+- **Disassemblers** - Multiple architectures supported
+- **Binary utilities** - binutils, binwalk, file analysis
+
+### 🔐 The Vault - Security, Recon & OSINT
+- **Network scanning** - Nmap, Masscan
+- **Web testing** - sqlmap, dirsearch, whatweb, wapiti
+- **Wireless** - Aircrack-ng, Kismet, Wifite, Reaver
+- **OSINT** - Subfinder, Amass, Sherlock, Maigret, Holehe
+- **Exploitation** - Bettercap, XSStrike, Redhawk
+
+### 📚 The Archive - Documentation & Meta-Tools
+- **Documentation generators**
+- **Report builders**
+- **Meta-utilities**
+- **Configuration management**
+
+### ⚡ The Ritual - Complete Installation
+Run all modules for full-suite deployment
 
 ---
 
-## Contributing
+## 🎯 Curated Profiles
 
-Contributions are welcome. Before submitting a pull request, please review:
+Pre-configured tool bundles for specific workflows:
 
-CONTRIBUTING.md
+### 🔒 Security Research (`security.txt`)
+**18 specialized tools** for penetration testing and security research:
+- Network: nmap, subfinder
+- Web: sqlmap, dirsearch, whatweb, wapiti, xsstrike
+- Wireless: aircrack-ng, kismet, reaver, wifite
+- OSINT: maigret, sherlock, holehe, redhawk
+- RE: radare2, binwalk, ghidra
 
-This document outlines:
+```bash
+tms  # Select "Install curated profile" → "security"
+```
 
-- Module format requirements
-- Coding style
-- Naming conventions
-- Testing and validation steps
+### 💻 Developer (`developer.txt`)
+Full development environment with languages, build tools, and version control.
+
+### 📱 Android Analysis (`android-analysis.txt`)
+APK analysis, ADB utilities, and mobile security tools.
+
+### ⚙️ Basic (`basic.txt`)
+Essential utilities for minimal installation.
+
+### 🔥 Full Suite (`full-suite.txt`)
+Complete installation - all 100+ modules.
 
 ---
 
-## Versioning
+## 🛠️ Built-in Tools
 
-The current version is stored in:
+TMS includes production-ready management utilities:
 
-VERSION
+| Tool | Purpose |
+|------|---------|
+| `health_check.sh` | System diagnostics and validation |
+| `backup.sh` / `restore.sh` | Configuration backup/restore |
+| `cleanup.sh` | Remove unused packages and caches |
+| `module_search.sh` | Find modules by keyword |
+| `module_stats.sh` | Installation statistics |
+| `env_report.sh` | Environment analysis |
+| `self_test.sh` | Automated testing framework |
+| `benchmark.sh` | Performance testing |
+| `log_viewer.sh` | Log management |
+| `find_broken_links.sh` | Validation checks |
 
-This project follows a simple semantic versioning model.
+```bash
+# Run health check
+bash ~/Termux-Master-Suite/tools/health_check.sh
+
+# Search for modules
+bash ~/Termux-Master-Suite/tools/module_search.sh nmap
+
+# View statistics
+bash ~/Termux-Master-Suite/tools/module_stats.sh
+```
 
 ---
 
-## License
+## 📦 Module Highlights
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+### Security & Pentesting
+- **Nmap** - Network discovery and security auditing
+- **Sqlmap** - Automatic SQL injection
+- **Bettercap** - Swiss Army knife for WiFi, BLE, and network attacks
+- **Aircrack-ng** - WiFi security auditing
+- **Wifite** - Automated wireless attack tool
+
+### Reverse Engineering
+- **Ghidra** - NSA's reverse engineering framework
+- **Radare2** - Unix-like reverse engineering framework
+- **Binwalk** - Firmware analysis tool
+
+### OSINT
+- **Subfinder** - Subdomain discovery
+- **Amass** - In-depth attack surface mapping
+- **Sherlock** - Hunt down social media accounts
+- **Maigret** - Username OSINT tool
+
+### Android
+- **ADB** - Android Debug Bridge
+- **APKTool** - Reverse engineering Android apps
+- **Fastboot** - Android bootloader interface
+
+### Development
+- **Go toolchain** - Full Go development environment
+- **Git setup** - Advanced git configuration
+- **Build tools** - Make, CMake, compilers
+
+---
+
+## 🚀 Usage
+
+### Interactive TUI
+
+```bash
+tms
+```
+
+Navigate through The Forge Console:
+- Install individual modules
+- Deploy curated profiles  
+- Run maintenance tools
+- View logs and diagnostics
+
+### Command Line
+
+```bash
+# Install specific module
+tms install nmap
+
+# Install profile
+tms profile security
+
+# Run health check
+tms health
+
+# View module info
+tms info sqlmap
+```
+
+---
+
+## 📊 System Requirements
+
+**Minimum**:
+- Termux (latest from F-Droid)
+- 500MB free storage
+- Storage permissions
+
+**Recommended**:
+- 2GB+ free storage (for full suite)
+- Android 7.0+ (API 24+)
+- Root access (optional, enhances some tools)
+
+---
+
+## 🔧 Architecture
+
+```
+Termux-Master-Suite/
+├── mega-installer/          # Core installation system
+│   ├── mega_installer.sh    # Main TUI
+│   ├── MODULE_INDEX.md      # Complete module catalog
+│   └── modules/             # 100+ module installers
+├── curated/                 # Pre-configured profiles
+│   ├── security.txt
+│   ├── developer.txt
+│   └── full-suite.txt
+├── tools/                   # Management utilities
+│   ├── health_check.sh
+│   ├── backup.sh
+│   └── module_search.sh
+└── installers/              # Category installers
+    ├── bootstrap/
+    ├── basic/
+    └── dev/
+```
+
+---
+
+## 📖 Documentation
+
+- **[QUICKSTART.md](QUICKSTART.md)** - Installation and first steps
+- **[MODULES.md](MODULES.md)** - Complete module catalog
+- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
+- **[ROADMAP.md](ROADMAP.md)** - Development roadmap
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+### Quick Contribution
+
+1. Fork the repository
+2. Add module installer to `mega-installer/modules/`
+3. Update `MODULE_INDEX.md`
+4. Test on clean Termux
+5. Submit Pull Request
+
+---
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE)
+
+---
+
+## 🙏 Credits
+
+Built for the Termux community by security researchers and developers who believe in open-source tooling.
+
+**Special thanks** to all contributors and testers who helped forge this suite.
+
+---
+
+## 🔐 Security & Privacy
+
+- **Local-only**: No telemetry or external data transmission
+- **Open source**: All code is auditable
+- **No root required**: Most tools work without root
+- **Transparent**: All actions logged locally
+
+---
+
+## 📞 Support
+
+- **Issues**: [GitHub Issues](https://github.com/k1lllagt/Termux-Master-Suite/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/k1lllagt/Termux-Master-Suite/discussions)
+
+---
+
+```
+⧉ the mechanisms hum to life…
+```
+
+```
+╔═════════════════════════════════════════════════════════╗
+║            THE FORGE OF THE SUITE — Where arcane engineering meets practical ops      ║
+╚═════════════════════════════════════════════════════════╝
+```

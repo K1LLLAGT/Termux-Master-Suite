@@ -4,17 +4,407 @@
 # difficulty="Unknown"
 # requires=()
 
+# title="install_kali_web"
+# title="install_kali_web"
+# category="Vault"
+# category="Vault"
+# description="No description provided."
+# description="No description provided."
+# difficulty="Unknown"
+# difficulty="Unknown"
+# requires=()
+# requires=()
+
+
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+
+
+
+
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+
+
+
+
+
+
+
+
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# title="install_kali_web"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# category="Vault"
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 #!/data/data/com.termux/files/usr/bin/bash
 #!/data/data/com.termux/files/usr/bin/bash
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
+echo "Installing Kali web tools..."
 echo "Installing Kali web tools..."
 echo "Installing Kali web tools..."
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
+proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
 proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
 proot-distro login kali --command "apt update -y && apt install -y kali-tools-web"
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
+echo "Kali web tools installed."
 echo "Kali web tools installed."
 echo "Kali web tools installed."

@@ -57,7 +57,7 @@ echo
 echo "[*] Checking for Termux-Master-Suite..."
 if [ ! -d "$ROOT" ]; then
     echo "[*] Cloning Termux-Master-Suite..."
-    git clone https://github.com/yourusername/Termux-Master-Suite.git "$ROOT"
+    git clone https://github.com/k1lllagt/Termux-Master-Suite.git "$ROOT"
     echo "[+] Repository cloned"
 else
     echo "[*] Updating existing repository..."

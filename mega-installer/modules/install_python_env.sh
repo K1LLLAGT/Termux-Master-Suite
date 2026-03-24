@@ -4,25 +4,263 @@
 # difficulty="Unknown"
 # requires=()
 
+# title="install_python_env"
+# title="install_python_env"
+# category="Forge"
+# category="Forge"
+# description="No description provided."
+# description="No description provided."
+# difficulty="Unknown"
+# difficulty="Unknown"
+# requires=()
+# requires=()
+
+
+# title="install_python_env"
+# title="install_python_env"
+# title="install_python_env"
+# title="install_python_env"
+# category="Forge"
+# category="Forge"
+# category="Forge"
+# category="Forge"
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+
+
+
+
+# title="install_python_env"
+# title="install_python_env"
+# title="install_python_env"
+# title="install_python_env"
+# title="install_python_env"
+# title="install_python_env"
+# title="install_python_env"
+# title="install_python_env"
+# category="Forge"
+# category="Forge"
+# category="Forge"
+# category="Forge"
+# category="Forge"
+# category="Forge"
+# category="Forge"
+# category="Forge"
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# description="No description provided."
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# difficulty="Unknown"
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+# requires=()
+
+
+
+
+
+
+
+
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 #!/data/data/com.termux/files/usr/bin/bash
 #!/data/data/com.termux/files/usr/bin/bash
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo "Setting up Python environment..."
+echo "Setting up Python environment..."
+echo "Setting up Python environment..."
+echo "Setting up Python environment..."
+echo "Setting up Python environment..."
+echo "Setting up Python environment..."
+echo "Setting up Python environment..."
+echo "Setting up Python environment..."
+echo "Setting up Python environment..."
+echo "Setting up Python environment..."
+echo "Setting up Python environment..."
+echo "Setting up Python environment..."
+echo "Setting up Python environment..."
+echo "Setting up Python environment..."
 echo "Setting up Python environment..."
 echo "Setting up Python environment..."
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pkg update -y
+pkg update -y
+pkg update -y
+pkg update -y
+pkg update -y
+pkg update -y
+pkg update -y
+pkg update -y
+pkg update -y
+pkg update -y
+pkg update -y
+pkg update -y
+pkg update -y
+pkg update -y
 pkg update -y
 pkg update -y
 pkg install -y python python-pip
 pkg install -y python python-pip
+pkg install -y python python-pip
+pkg install -y python python-pip
+pkg install -y python python-pip
+pkg install -y python python-pip
+pkg install -y python python-pip
+pkg install -y python python-pip
+pkg install -y python python-pip
+pkg install -y python python-pip
+pkg install -y python python-pip
+pkg install -y python python-pip
+pkg install -y python python-pip
+pkg install -y python python-pip
+pkg install -y python python-pip
+pkg install -y python python-pip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 pip install --upgrade pip
 pip install --upgrade pip
+pip install --upgrade pip
+pip install --upgrade pip
+pip install --upgrade pip
+pip install --upgrade pip
+pip install --upgrade pip
+pip install --upgrade pip
+pip install --upgrade pip
+pip install --upgrade pip
+pip install --upgrade pip
+pip install --upgrade pip
+pip install --upgrade pip
+pip install --upgrade pip
+pip install --upgrade pip
+pip install --upgrade pip
+pip install virtualenv
+pip install virtualenv
+pip install virtualenv
+pip install virtualenv
+pip install virtualenv
+pip install virtualenv
+pip install virtualenv
+pip install virtualenv
+pip install virtualenv
+pip install virtualenv
+pip install virtualenv
+pip install virtualenv
+pip install virtualenv
+pip install virtualenv
 pip install virtualenv
 pip install virtualenv
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo "Python environment ready."
+echo "Python environment ready."
+echo "Python environment ready."
+echo "Python environment ready."
+echo "Python environment ready."
+echo "Python environment ready."
+echo "Python environment ready."
+echo "Python environment ready."
+echo "Python environment ready."
+echo "Python environment ready."
+echo "Python environment ready."
+echo "Python environment ready."
+echo "Python environment ready."
+echo "Python environment ready."
 echo "Python environment ready."
 echo "Python environment ready."
