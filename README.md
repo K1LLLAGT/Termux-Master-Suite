@@ -280,15 +280,3 @@ Built for the Termux community by security researchers and developers who believ
 
 - **Issues**: [GitHub Issues](https://github.com/k1lllagt/Termux-Master-Suite/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/k1lllagt/Termux-Master-Suite/discussions)
-
----
-
-```
-⧉ the mechanisms hum to life…
-```
-
-```
-╔═════════════════════════════════════════════════════════╗
-║            THE FORGE OF THE SUITE — Where arcane engineering meets practical ops      ║
-╚═════════════════════════════════════════════════════════╝
-```
